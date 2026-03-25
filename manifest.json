@@ -1,0 +1,75 @@
+{
+    "name": "AgroCare AI",
+    "short_name": "AgroCare",
+    "description": "Интеллектуальная система заботы о вашем хозяйстве",
+    "start_url": "/?pwa=1",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#1a1a1a",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icons.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "orientation": "portrait",
+    "scope": "/",
+    "categories": [
+        "agriculture",
+        "productivity",
+        "utilities"
+    ],
+    "shortcuts": [
+        {
+            "name": "Дашборд",
+            "short_name": "Дашборд",
+            "url": "/dashboard",
+            "icons": [
+                {
+                    "src": "/icons/icon-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "ИИ Ассистент",
+            "short_name": "Чат",
+            "url": "/chat",
+            "icons": [
+                {
+                    "src": "/icons/icon-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Мои поля",
+            "short_name": "Поля",
+            "url": "/dashboard/fields",
+            "icons": [
+                {
+                    "src": "/icons/icon-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "display_override": [
+        "standalone",
+        "window-controls-overlay"
+    ]
+}

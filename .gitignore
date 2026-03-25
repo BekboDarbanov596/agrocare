@@ -1,0 +1,10 @@
+vendor/
+.env
+.env.production
+.env.local
+.idea/
+.vscode/
+*.log
+docker/postgres/data/
+uploads/
+storage/
