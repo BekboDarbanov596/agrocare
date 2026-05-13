@@ -72,3 +72,4 @@ AgroCareAI/
 │
 ├── README.md
 └── requirements.txt
+https://habr.com/ru/sandbox/284640/
